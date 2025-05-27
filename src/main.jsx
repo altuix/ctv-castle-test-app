@@ -10,5 +10,6 @@ import "whatwg-fetch";
 import "url-polyfill";
 import "raf/polyfill";
 import "dom4";
+import SimpleExamples from "./examples/SimpleExamples";
 
-render(<App />, document.getElementById("root"));
+render(<SimpleExamples />, document.getElementById("root"));
